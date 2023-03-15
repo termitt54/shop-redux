@@ -1,0 +1,30 @@
+.total-price {
+    width: 40rem;
+    height: fit-content;
+    padding: 2rem;
+    box-shadow: 0 0 5px black;
+    border-radius: 2rem;
+    margin-left: auto;
+
+    &__final {
+        display: flex;
+        justify-content: space-between;
+        font-size: 2.8rem;
+        font-weight: 700;
+        margin-bottom: 4rem;
+    }
+
+    &__button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        border: none;
+        border-radius: 1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        background-color: blue;
+        color: white;
+    }
+}

@@ -1,0 +1,59 @@
+.order {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+
+  &__image {
+    width: 100%;
+    max-width: 12rem;
+    height: 14rem;
+  }
+
+  &__info {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-right: 3rem;
+  }
+
+  &__title {
+    font-weight: 700;
+  }
+
+  &__count {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
+    width: 100%;
+    max-width: 12rem;
+    height: 10rem;
+  }
+
+  &__price {
+    margin-left: auto;
+    font-weight: 700;
+    font-size: 2.4rem;
+  }
+
+  &:not(:last-child) {
+    border-bottom: 1px solid lightgray;
+  }
+
+  &__remove {
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    color: red;
+  }
+
+  span {
+    font-weight: 700;
+  }
+}

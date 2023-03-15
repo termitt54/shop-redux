@@ -1,0 +1,36 @@
+.memory {
+  width: 100%;
+  max-width: fit-content;
+  display: flex;
+
+  &__label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: 3rem;
+  }
+  &__input {
+    display: none;
+  }
+  &__decoration {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: fit-content;
+    height: 3rem;
+    padding: 0.5rem;
+    border: 1px solid lightgray;
+  }
+
+  &__input:checked + &__decoration {
+    background-color: lightgray;
+    font-weight: 700;
+  }
+
+  span {
+    margin-right: 2rem;
+  }
+}

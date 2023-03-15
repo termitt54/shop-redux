@@ -1,0 +1,59 @@
+.btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &_menu {
+        width: 4rem;
+        height: 4rem;
+        font-size: 4rem;
+
+        background-color: transparent;
+        color: white;
+        border-radius: 1rem;
+        border: none;
+        box-shadow: 0 0 5px black;
+        margin-right: 2rem;
+    }
+
+    &_close-sidebar {
+        position: absolute;
+        top: 0rem;
+        right: -4rem;
+        font-size: 3rem;
+        color: white;
+        background-color: transparent;
+        border: none;
+    }
+
+    &_save {   
+        width: 5rem;
+    }
+
+    &_buy {
+        width: 100%;
+        background-color: red;
+        font-size: 1.4rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: white;
+
+        &:hover {
+            background-color: blue;
+            color: white;
+        }
+    }
+
+    &_count-plus,
+    &_count-minus {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 4rem;
+        height: 4rem;
+        border: 1px solid gray;
+        border-radius: 50%;
+        background-color: transparent;
+    }
+}

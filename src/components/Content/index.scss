@@ -1,0 +1,75 @@
+.content {
+  width: 100%;
+  min-height: 80vh;
+  padding: 2rem;
+  font-size: 2.4rem;
+  background-color: white;
+  border-radius: 4rem;
+  margin-bottom: 2rem;
+}
+
+.catalog {
+  &__title {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-right: 5rem;
+    }
+
+    span {
+      font-size: 1.6rem;
+      color: gray;
+    }
+  }
+
+  &__brands {
+    display: flex;
+    column-gap: 13.5rem;
+    row-gap: 4rem;
+    flex-wrap: wrap;
+  }
+}
+
+.brand {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40rem;
+  height: 20rem;
+  padding: 2rem;
+  border-radius: 1rem;
+
+  &:hover {
+    box-shadow: 0 0 5px black;
+  }
+
+  &__logo {
+    width: 36rem;
+    height: 16rem;
+    margin-bottom: 2rem;
+  }
+
+  &__title {
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    h1 {
+        font-size: 3rem;
+        font-weight: 700;
+      }
+
+    span {
+        color: gray;
+    }  
+  }
+
+
+}

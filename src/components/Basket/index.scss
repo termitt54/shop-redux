@@ -1,0 +1,15 @@
+.basket {
+    display: flex;
+  &__orders {
+    width: 100%;
+    max-width: 80rem;
+    box-shadow: 0 0 5px black;
+    border-radius: 2rem;
+    padding: 1rem;
+  }
+
+  &__empty {
+    text-align: center;
+    margin: 10rem;
+  }
+}
